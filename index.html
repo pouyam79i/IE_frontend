@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!-- HTML config -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- adding css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- adding title and favicon -->
+    <link rel='shortcut icon' type='image/x-icon' href='./assests/favicon.png' />
+    <title>IE COURSE</title>
+</head>
+
+<body>
+
+    <!-- Header of contents -->
+    <div class="header">
+        <div class="main_text">I N T E R N E T <br> E N G I N E E R I N G</div>
+        <div class="sub_text">IS WHAT WE ARE GOING TO <br >LEARN IN THIS COURSE</div>
+        <button onclick="location.href='#books'">
+            SEE THIS COURSE RELATED BOOKS
+        </button>
+    </div >
+
+    <!-- Course info - contains 4 cols -->
+    <div id="lectures" class="lectures">
+        
+        <!-- first card -- HTTP -->
+        <div class="cards">
+        <img
+            src="./assests/http_icon.png"
+            alt="HTTP"
+            style="
+              width: 70%;
+              opacity: 0.5;
+              margin-top: 25px;
+            "
+          />
+          <h1 style="text-align: center">HTTP</h1>
+          <p>
+            The Hypertext Transfer Protocol is an application layer
+            protocol. <br> 
+            Communication between clients and web servers
+            is done by sending HTTP Requests and recieving HTTP Responses.
+          </p>
+        </div>
+
+        <!-- second card - HTML CSS -->
+        <div class="cards">
+        <img
+            src="./assests/css_icon.png"
+            alt="HTML - CSS"
+            style="width: 35%; opacity: 0.5"
+          />
+        <h1>HTML CSS</h1>
+        <p>
+            HTML (the Hypertext Markup Language) 
+            is the standard markup language for web pahrs. <br>
+            CSS is the language we use to style in an HTML document.
+            CSS describes how HTML elements should be displayed.
+        </p>
+        </div>
+
+        <!-- third card -- Javascript -->
+        <div class="cards">
+        <img
+            src="./assests/js_icon.png"
+            alt="JS"
+            style="width: 35%; opacity: 0.5"
+            />
+        <h1>JAVASCRIPT</h1>
+        <p>
+            JavaScript is the programming language of the Web.
+            JavaScript often abbreviated to JS is a lightweight,
+            interpreted, or just-in-time compiled programming language with 
+            first-class functions.
+        </p>
+        </div>
+
+        <!-- forth card -- Go -->
+        <div class="cards">
+            <img
+                src="./assests/go_icon.png"
+                alt="Go"
+                style="
+                width: 80%;
+                opacity: 0.5;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                margin-right: 30px;
+                "
+            />
+            <h1>GOLANG</h1>
+            <p>
+                Go language is a programming language
+                initially developed at Google. it is a statically-typed
+                language having syntax similar to that of C. Go is used to create computer programs.
+            </p>
+            </div>
+        </div>
+    </div >
+
+    <!-- Books - contains 3 cols -->
+    <div id="books" class="books">
+
+        <!-- header -->
+        <h1 style="width: 40%; margin-left: 30%">MOST POPULAR BOOKS</h1>
+
+        <!-- card of books -->
+        <div class="card_container">
+
+            <!-- card 1 - javascript book -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img
+                      style="width: 100%; height: 40%; border-radius: inherit"
+                      src="./assests/Book1-2.png"
+                      alt="react"
+                    />
+                    <h1 style="margin: 40px">JavaScript Guide</h1>
+                    <p style="margin: 20px">by David Flanagan</p>
+                    <p style="margin: 20px">Seventh edition</p>
+                    <p style="margin-top: 80px">Published at 2020</p>
+                  </div>
+                  <div class="flip-card-back">
+                    <h2 style="margin-top: 65%">Price : 31.99 USD</h2>
+                    <button class="flip-card-btn" onclick="location.href='#popup1'">
+                      BUY
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+            
+              <!-- card 2 -- React Card -->
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img
+                      style="width: 100%; height: 40%"
+                      src="./assests/Book2-2.jpg"
+                      alt="react"
+                    />
+                    <h1 style="margin: 40px">Road to React</h1>
+                    <p style="margin: 20px">by Robin Wieruch</p>
+                    <p style="margin: 20px">Seventh edition</p>
+                    <p style="margin-top: 80px">Published at 2020</p>
+                  </div>
+                  <div class="flip-card-back">
+                    <h2 style="margin-top: 65%">Price : 29.99 USD</h2>
+                    <button class="flip-card-btn" onclick="location.href='#popup2'">
+                      BUY
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              
+            <!-- card 3 -- Golang card -->
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img
+                      style="width: 100%; height: 40%"
+                      src="./assests/Book3-2.png"
+                      alt="react"
+                    />
+                    <h1 style="margin: 40px">Introducing Go</h1>
+                    <p style="margin: 20px">by Caleb Doxsey</p>
+                    <p style="margin: 20px">First edition</p>
+                    <p style="margin-top: 80px">Published at 2016</p>
+                  </div>
+                  <div class="flip-card-back">
+                    <h2 style="margin-top: 65%">Price : 20,07 €</h2>
+                    <button class="flip-card-btn" onclick="location.href='#popup3'">
+                      BUY
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- footer - contains 2 cols -->
+    <div>
+        <div class="footer">
+            <div class="part">
+              <hr/>
+              <a>CLASS INFO</a>
+              <a>CONTACT US</a>
+              <a>PRIVACY POLICY</a>
+              <a>TERMS</a>
+            </div>
+    
+            <div class="part">
+              <hr />
+              <a>© 2022 Built by Pouya Mohhamdi for IE course in
+                Tehran Polytechnic</a>
+            </div>
+          </div>
+    </div>
+
+
+    <!--Menu Btn-->
+    <button class="menu-icon" onclick="location.href = '#menu'">
+        <hr class="menu-hr" />
+        <hr class="menu-hr" />
+        <hr class="menu-hr" />
+    </button>
+
+    <!-- Menu items -->
+    <div id="menu" class="menu">
+        <!-- Close Btn -->
+        <a class="close" href="#">&times;</a>
+        <!-- Items -->
+        <a class="items" href="#">01 START</a>
+        <a class="items" href="#lectures">02 COURSE LECTURES</a>
+        <a class="items" href="#books">03 RELATED BOOKS</a>
+    </div>
+
+</body>
+
+</html>
